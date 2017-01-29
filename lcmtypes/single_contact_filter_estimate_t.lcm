@@ -1,0 +1,15 @@
+package robotlocomotion;
+
+// Output of a 
+
+struct single_contact_filter_estimate_t
+{
+  int64_t utime;
+  string body_name;
+  float contact_normal[3];
+  float contact_position[3];
+  float contact_force[3];
+  float contact_position_in_world[3];
+  float contact_force_in_world[3];
+  float contact_normal_in_world[3];
+}

@@ -20,13 +20,17 @@ lcm_wrap_types(
   CREATE_CPP_AGGREGATE_HEADER
   ${python_args}
   ${java_args}
+  actual_and_estimated_contact_locations_t.lcm
+  external_force_torque_t.lcm
   grasp_transition_state_t.lcm
+  multiple_contact_location_t.lcm
   plan_control_t.lcm
   plan_status_t.lcm
   residual_observer_state_t.lcm
   robot_plan_t.lcm
   robot_plan_with_supports_t.lcm
   robot_plan_w_keyframes_t.lcm
+  single_contact_filter_estimate_t.lcm
   support_body_t.lcm
   support_element_t.lcm
   support_sequence_t.lcm

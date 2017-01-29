@@ -1,0 +1,10 @@
+package robotlocomotion;
+
+// Output of a 
+
+struct multiple_contact_location_t
+{
+  int64_t utime;
+  int16_t num_contacts;
+  single_contact_filter_estimate_t contacts[num_contacts]; 
+}
