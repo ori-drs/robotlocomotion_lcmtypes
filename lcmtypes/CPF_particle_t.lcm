@@ -1,0 +1,10 @@
+package robotlocomotion;
+
+struct CPF_particle_t
+{
+  int64_t utime;
+  string link_name;
+  float contact_location[3];
+  float contact_normal[3];
+  float contact_force[3];
+}

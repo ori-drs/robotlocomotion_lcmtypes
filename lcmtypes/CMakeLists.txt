@@ -21,6 +21,11 @@ lcm_wrap_types(
   ${python_args}
   ${java_args}
   actual_and_estimated_contact_locations_t.lcm
+  contact_filter_estimate_t.lcm
+  contact_filter_body_wrench_estimate_t.lcm
+  CPF_data_t.lcm
+  CPF_particle_t.lcm
+  CPF_particle_set_t.lcm
   external_force_torque_t.lcm
   grasp_transition_state_t.lcm
   multiple_contact_location_t.lcm
