@@ -1,6 +1,7 @@
 package robotlocomotion;
 
-// Output of a 
+// For use with the Contact Particle Filter algorithm. Encodes the location
+// of a single contact point estimate.
 
 struct single_contact_filter_estimate_t
 {

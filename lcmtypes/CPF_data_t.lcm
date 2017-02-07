@@ -1,6 +1,6 @@
 package robotlocomotion;
 
-
+// For use visualizing Contact Particle Filter algorithm.
 struct CPF_data_t
 {
   int64_t utime;

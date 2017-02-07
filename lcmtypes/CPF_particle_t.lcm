@@ -1,5 +1,6 @@
 package robotlocomotion;
 
+// For use with Contact Particle Filter algorithm. Encodes a single particle
 struct CPF_particle_t
 {
   int64_t utime;

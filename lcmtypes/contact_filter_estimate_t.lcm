@@ -1,6 +1,7 @@
 package robotlocomotion;
 
-// For use with ContactParticleFilter algorithm
+// For use with ContactParticleFilter algorithm. Encodes the estimate provided by the
+// algorithm
 struct contact_filter_estimate_t
 {
   int64_t utime;

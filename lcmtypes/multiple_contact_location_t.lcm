@@ -1,6 +1,6 @@
 package robotlocomotion;
 
-// Output of a 
+// For use with Contact Particle Filter algorithm.
 
 struct multiple_contact_location_t
 {

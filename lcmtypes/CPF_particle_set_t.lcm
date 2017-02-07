@@ -1,6 +1,7 @@
 package robotlocomotion;
 
-
+// For use with Contact Particle Filter algorithm. Encodes a particle set for
+// visualization.
 struct CPF_particle_set_t
 {
   int64_t utime;
