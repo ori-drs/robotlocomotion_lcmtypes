@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+  <name>robotlocomotion_lcmtypes</name>
+  <version>0.0.0</version>
+  <description>The robotlocomotion_lcmtypes package</description>
+
+  <maintainer email="todo@todo.todo">todo</maintainer>
+
+  <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>lcm_catkin</build_depend>
+  <build_depend>bot_core_lcmtypes</build_depend>
+  <run_depend>lcm_catkin</run_depend>
+  <run_depend>bot_core_lcmtypes</run_depend>
+
+  <export>
+  </export>
+</package>
